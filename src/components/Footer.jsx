@@ -93,7 +93,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="footer-brand">
             <div className="footer-logo" onClick={scrollToTop}>
-              <img src="/logo.png" alt="Book Here" style={{ height: '60px', width: 'auto' }} />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Book Here" style={{ height: '60px', width: 'auto' }} />
             </div>
             <p className="footer-tagline">
               Your all-in-one solution for seamless bookings and rentals.

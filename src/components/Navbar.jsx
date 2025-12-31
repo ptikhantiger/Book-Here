@@ -31,7 +31,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
       <div className="navbar-container">
         <div className="navbar-logo" onClick={() => scrollToSection('home')}>
-          <img src="/logo.png" alt="Book Here" style={{ height: '50px', width: 'auto' }} />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Book Here" style={{ height: '50px', width: 'auto' }} />
         </div>
 
         <div className={`navbar-menu ${isMobileMenuOpen ? 'active' : ''}`}>
