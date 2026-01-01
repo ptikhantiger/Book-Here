@@ -1,7 +1,7 @@
 .services {
   min-height: 100vh;
   padding: 100px 20px;
-  background: linear-gradient(135deg, #f8f9ff 0%, #fff 100%);
+  background: #ffffff;
   position: relative;
   overflow: hidden;
 }
@@ -13,7 +13,7 @@
   right: -100px;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(77, 184, 232, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(55, 182, 216, 0.08) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
 }
@@ -25,7 +25,7 @@
   left: -100px;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(255, 107, 157, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(239, 78, 103, 0.08) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
 }
@@ -47,10 +47,7 @@
 .services-title {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 800;
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: rgb(55, 182, 216);
   margin-bottom: 20px;
   letter-spacing: -1px;
 }
@@ -283,7 +280,7 @@
 
 /* Services CTA */
 .services-cta {
-  background: linear-gradient(135deg, rgba(255, 107, 157, 0.05) 0%, rgba(77, 184, 232, 0.05) 100%);
+  background: rgba(55, 182, 216, 0.05);
   border-radius: 30px;
   padding: 60px 40px;
   text-align: center;
@@ -298,7 +295,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
+  background: rgb(55, 182, 216);
   opacity: 0.03;
   pointer-events: none;
 }
@@ -345,7 +342,7 @@
 }
 
 .cta-button.primary {
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
+  background: rgb(239, 78, 103);
   color: #fff;
 }
 
@@ -361,12 +358,13 @@
 }
 
 .cta-button.primary:hover {
-  box-shadow: 0 8px 25px rgba(255, 107, 157, 0.4);
+  box-shadow: 0 8px 25px rgba(239, 78, 103, 0.4);
+  background: rgba(239, 78, 103, 0.9);
 }
 
 .cta-button.secondary:hover {
-  border-color: #4DB8E8;
-  color: #4DB8E8;
+  border-color: rgb(55, 182, 216);
+  color: rgb(55, 182, 216);
 }
 
 /* Animations */
@@ -481,12 +479,12 @@
 
 /* Accessibility */
 .service-card:focus-within .service-card-inner {
-  outline: 3px solid #4DB8E8;
+  outline: 3px solid rgb(55, 182, 216);
   outline-offset: 2px;
 }
 
 .cta-button:focus {
-  outline: 3px solid #4DB8E8;
+  outline: 3px solid rgb(55, 182, 216);
   outline-offset: 2px;
 }
 
@@ -512,12 +510,9 @@
 /* Special hover state for active category */
 .service-card.active .service-card-inner {
   border-color: var(--service-color);
-  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(248, 249, 255, 1) 100%);
+  background: #ffffff;
 }
 
 .service-card.active .service-title {
-  background: linear-gradient(135deg, var(--service-color) 0%, var(--service-color) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--service-color);
 }

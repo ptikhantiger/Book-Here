@@ -1,7 +1,7 @@
 .download-cta {
   min-height: 100vh;
   padding: 100px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #FF6B9D 100%);
+  background: rgb(55, 182, 216);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -154,10 +154,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #FFD700;
   display: inline-block;
 }
 
@@ -388,10 +385,7 @@
 .app-header-download h3 {
   font-size: 1.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: rgb(55, 182, 216);
   margin: 0;
 }
 
@@ -440,9 +434,9 @@
 }
 
 .category-pill.active {
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
+  background: rgb(239, 78, 103);
   color: #fff;
-  box-shadow: 0 4px 12px rgba(255, 107, 157, 0.3);
+  box-shadow: 0 4px 12px rgba(239, 78, 103, 0.3);
 }
 
 .featured-cards {
@@ -470,7 +464,7 @@
 .card-badge {
   display: inline-block;
   padding: 4px 10px;
-  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  background: #FFD700;
   color: #fff;
   font-size: 0.7rem;
   font-weight: 700;
@@ -517,7 +511,7 @@
 }
 
 .nav-item.active {
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
+  background: rgb(239, 78, 103);
 }
 
 .nav-item svg {
@@ -560,7 +554,7 @@
   top: -20px;
   right: -30px;
   animation: floatBadge 3s ease-in-out infinite;
-  background: linear-gradient(135deg, rgba(67, 233, 123, 0.95) 0%, rgba(56, 249, 215, 0.95) 100%);
+  background: rgba(67, 233, 123, 0.95);
   color: #fff;
 }
 
@@ -569,7 +563,7 @@
   left: -40px;
   animation: floatBadge 4s ease-in-out infinite;
   animation-delay: 1s;
-  background: linear-gradient(135deg, rgba(255, 107, 157, 0.95) 0%, rgba(255, 160, 122, 0.95) 100%);
+  background: rgba(239, 78, 103, 0.95);
   color: #fff;
 }
 
@@ -578,7 +572,7 @@
   right: -50px;
   animation: floatBadge 3.5s ease-in-out infinite;
   animation-delay: 2s;
-  background: linear-gradient(135deg, rgba(77, 184, 232, 0.95) 0%, rgba(102, 126, 234, 0.95) 100%);
+  background: rgba(55, 182, 216, 0.95);
   color: #fff;
 }
 

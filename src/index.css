@@ -36,22 +36,22 @@ code {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #FF6B9D 0%, #4DB8E8 100%);
+  background: rgb(55, 182, 216);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #ff4d88 0%, #3ba8d8 100%);
+  background: rgb(239, 78, 103);
 }
 
 /* Selection Color */
 ::selection {
-  background: rgba(255, 107, 157, 0.3);
+  background: rgba(239, 78, 103, 0.3);
   color: #333333;
 }
 
 ::-moz-selection {
-  background: rgba(255, 107, 157, 0.3);
+  background: rgba(239, 78, 103, 0.3);
   color: #333333;
 }
 
@@ -73,14 +73,11 @@ code {
 }
 
 .gradient-bg {
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
+  background: rgb(55, 182, 216);
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: rgb(55, 182, 216);
 }
 
 /* Button Styles */
@@ -92,7 +89,7 @@ button {
 }
 
 button:focus {
-  outline: 2px solid rgba(255, 107, 157, 0.5);
+  outline: 2px solid rgba(239, 78, 103, 0.5);
   outline-offset: 2px;
 }
 
@@ -244,7 +241,7 @@ p {
 
 /* Focus Visible */
 *:focus-visible {
-  outline: 2px solid #FF6B9D;
+  outline: 2px solid rgb(239, 78, 103);
   outline-offset: 2px;
 }
 

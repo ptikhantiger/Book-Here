@@ -1,7 +1,7 @@
 .contact {
   min-height: 100vh;
   padding: 100px 20px;
-  background: linear-gradient(135deg, #f8f9ff 0%, #fff 100%);
+  background: #ffffff;
   position: relative;
 }
 
@@ -20,10 +20,7 @@
 .contact-title {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 800;
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: rgb(55, 182, 216);
   margin-bottom: 20px;
   letter-spacing: -1px;
 }
@@ -69,7 +66,7 @@
   align-items: center;
   gap: 12px;
   padding: 16px 20px;
-  background: linear-gradient(135deg, rgba(67, 233, 123, 0.1) 0%, rgba(56, 249, 215, 0.1) 100%);
+  background: rgba(67, 233, 123, 0.1);
   border: 2px solid #43e97b;
   border-radius: 12px;
   margin-bottom: 24px;
@@ -122,8 +119,8 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #4DB8E8;
-  box-shadow: 0 0 0 4px rgba(77, 184, 232, 0.1);
+  border-color: rgb(55, 182, 216);
+  box-shadow: 0 0 0 4px rgba(55, 182, 216, 0.1);
 }
 
 .form-group input.error,
@@ -149,7 +146,7 @@
   justify-content: center;
   gap: 10px;
   padding: 16px 32px;
-  background: linear-gradient(135deg, #FF6B9D 0%, #4DB8E8 100%);
+  background: rgb(239, 78, 103);
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -157,14 +154,15 @@
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.3);
+  box-shadow: 0 4px 15px rgba(239, 78, 103, 0.3);
   margin-top: 8px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .submit-button:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 107, 157, 0.4);
+  box-shadow: 0 8px 25px rgba(239, 78, 103, 0.4);
+  background: rgba(239, 78, 103, 0.9);
 }
 
 .submit-button:disabled {
@@ -220,18 +218,18 @@
 .info-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  border-color: #FF6B9D;
+  border-color: rgb(239, 78, 103);
 }
 
 .info-icon {
   width: 50px;
   height: 50px;
   border-radius: 14px;
-  background: linear-gradient(135deg, rgba(255, 107, 157, 0.15) 0%, rgba(77, 184, 232, 0.15) 100%);
+  background: rgba(55, 182, 216, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #D81B60;
+  color: rgb(55, 182, 216);
   flex-shrink: 0;
 }
 
@@ -320,7 +318,7 @@
 
 .map-placeholder {
   height: 250px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: rgb(55, 182, 216);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -398,7 +396,7 @@
 }
 
 .faq-question:hover {
-  color: #FF6B9D;
+  color: rgb(239, 78, 103);
 }
 
 .faq-question svg {
@@ -411,7 +409,7 @@
 
 .faq-item.expanded .faq-question svg {
   transform: rotate(180deg);
-  color: #FF6B9D;
+  color: rgb(239, 78, 103);
 }
 
 .faq-answer {
@@ -558,7 +556,7 @@
 .submit-button:focus,
 .faq-question:focus,
 .social-link:focus {
-  outline: 3px solid #4DB8E8;
+  outline: 3px solid rgb(55, 182, 216);
   outline-offset: 2px;
 }
 
