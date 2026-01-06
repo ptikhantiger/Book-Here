@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Hero.css';
+import heroImage from '../assets/hero.jpg'; 
 
 const Hero = () => {
   const [stats, setStats] = useState({
@@ -51,8 +52,11 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="hero">
+    
+    <section id="home" className="hero" >
+    
       <div className="hero-background">
+     
         <div className="wave wave1"></div>
         <div className="wave wave2"></div>
         <div className="wave wave3"></div>
@@ -117,55 +121,11 @@ const Hero = () => {
           </div>
 
           <div className="hero-image">
-            <div className="phone-mockup">
-              <div className="phone-frame">
-                <div className="phone-notch"></div>
-                <div className="phone-screen">
-                  <div className="app-preview">
-                    <div className="app-header">
-                      <div className="app-time">9:41</div>
-                      <div className="app-icons">
-                        <div className="signal-icon"></div>
-                        <div className="wifi-icon"></div>
-                        <div className="battery-icon"></div>
-                      </div>
-                    </div>
-                    <div className="app-content">
-                      <div className="search-bar">
-                        <div className="search-icon">🔍</div>
-                        <div className="search-text">Search for anything...</div>
-                      </div>
-                      <div className="category-pills">
-                        <div className="pill active">All</div>
-                        <div className="pill">Hotels</div>
-                        <div className="pill">Cars</div>
-                        <div className="pill">Events</div>
-                      </div>
-                      <div className="featured-card">
-                        <div className="card-image"></div>
-                        <div className="card-info">
-                          <div className="card-title">Luxury Resort</div>
-                          <div className="card-price">$199/night</div>
-                        </div>
-                      </div>
-                      <div className="featured-card small">
-                        <div className="card-image"></div>
-                        <div className="card-info">
-                          <div className="card-title">City Tour</div>
-                          <div className="card-price">$49/person</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="floating-elements">
-                <div className="float-element element1">📅</div>
-                <div className="float-element element2">🏨</div>
-                <div className="float-element element3">🚗</div>
-                <div className="float-element element4">✨</div>
-              </div>
-            </div>
+            <img 
+              src={heroImage}
+              alt="Mobile app showcase"
+              className="hero-img"
+            />
           </div>
         </div>
       </div>

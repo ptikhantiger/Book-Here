@@ -1,5 +1,4 @@
 import './Features.css';
-
 const Features = () => {
   const features = [
     {
@@ -84,6 +83,7 @@ const Features = () => {
 
   return (
     <section id="features" className="features">
+    
       <div className="features-container">
         <div className="features-header">
           <h2 className="features-title">Why Choose Book Here?</h2>
